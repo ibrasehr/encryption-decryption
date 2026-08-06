@@ -75,3 +75,7 @@ git config --global user.email "ibrasehr64@gmail.com"
 !git add .
 !git commit -m "Update history and cryptography files"
 !git push
+!git rm -rf --cached cryptography
+!git add .
+!git commit -m "Clean up cryptography tracking and save changes"
+!git push
