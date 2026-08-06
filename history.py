@@ -55,3 +55,12 @@ git config --global user.email "ibrasehr64@gmail.com"
 !git push
 %runfile C:/Users/DELL/.spyder-py3/temp.py --wdir
 !git add .
+!git commit -m "Caesar Cypher"
+!git push
+!git remote add origin https://github.com/ibrasehr/encryption-decryption
+!git branch -M main
+!git push -u origin main
+!git pull origin main --rebase
+!git push -f origin main
+!git add .
+!git commit -m "Save local changes before pull"
