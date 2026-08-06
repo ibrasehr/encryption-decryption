@@ -64,3 +64,8 @@ git config --global user.email "ibrasehr64@gmail.com"
 !git push -f origin main
 !git add .
 !git commit -m "Save local changes before pull"
+!git pull origin main --rebase
+!git add .
+!git commit -m "Save local progress before pull"
+!git pull origin main --rebase
+!git push -u origin main
