@@ -69,3 +69,9 @@ git config --global user.email "ibrasehr64@gmail.com"
 !git commit -m "Save local progress before pull"
 !git pull origin main --rebase
 !git push -u origin main
+!git stash
+!git pull origin main --rebase
+!git stash pop
+!git add .
+!git commit -m "Update history and cryptography files"
+!git push
